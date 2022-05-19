@@ -10,7 +10,7 @@ body {
 
 
 .nav-bar {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     height: 100px;
     position: fixed;
     z-index: 1;
@@ -40,17 +40,15 @@ body {
 
 }
 
-/* .nav-btn {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;align-items: center;
+
+
+
+a {
     background-color: white;
-} */
-
-
-
-a{background-color: white;height: 40px;
+    height: 40px;
     width: 40px;
     text-align: center;
     line-height: 40px;
-text-decoration: none;border-radius: 50%;}
+    text-decoration: none;
+    border-radius: 50%;
+}
