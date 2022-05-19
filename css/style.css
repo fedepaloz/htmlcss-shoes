@@ -8,6 +8,17 @@ body {
 
 
 
+/* barra di navigazione numerata */
+a {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+}
 
 .nav-bar {
     /* background-color: burlywood; */
@@ -22,7 +33,7 @@ body {
 }
 
 
-
+/* colori bg sezione scarpe */
 .red {
     background-color: red;
 }
@@ -37,18 +48,48 @@ body {
 
 .section {
     height: 100vh;
+    position: relative;
 
 }
 
+.container {
+    width: 50%;
+    height: 70%;
+    /* background: grey; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.col {
+    /* background-color: yellow; */
+}
 
+img {
+    width: 500px;
+}
 
-a {
-    background-color: white;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    line-height: 40px;
-    text-decoration: none;
-    border-radius: 50%;
+.shoe-row {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+.shoe-motto {}
+
+.yellow-text,
+.green-text {
+    font-size: 30px;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.green-text {
+    color: green;
 }
